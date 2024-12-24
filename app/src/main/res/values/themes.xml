@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.MyApplication3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.MyApplication3" parent="Base.Theme.MyApplication3" />
+
+    <!-- Transparent Dialog Theme -->
+    <style name="TransparentDialog" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+<!--        <item name="android:windowDimAmount">0.0</item>-->
+    </style>
+</resources>
